@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity" >
+    
+	<RadioGroup
+	    android:id="@+id/tab_menu"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:orientation="horizontal">
+           
+	    <RadioButton
+	        android:id="@+id/tab_login"
+	        style="@style/raido_tab"
+	        android:text="@string/str_longin" />
+
+	    <RadioButton
+	        android:id="@+id/tab_numpad"
+	        style="@style/raido_tab"
+	        android:text="@string/str_numpad" />
+
+	    <RadioButton
+	        android:id="@+id/tab_video"
+	        style="@style/raido_tab"
+	        android:text="@string/str_video" />
+
+	    <RadioButton
+	        android:id="@+id/tab_message"
+	        style="@style/raido_tab"
+	        android:text="@string/str_message" />
+		
+		<RadioButton
+		    android:id="@+id/tab_setting"
+		    style="@style/raido_tab"
+		    android:text="@string/str_setting" />
+	
+	</RadioGroup>
+       <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/tab_menu" >
+
+    </FrameLayout>
+
+</RelativeLayout>
