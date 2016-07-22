@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="portsipvoipsdk">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/libs/portsipvoipsdk.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
