@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/prd/Workspace/PortSip/PortSip/Example/AndroidSample_Studio/SIPSample_AndroidStudio/SIPSample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/home/prd/Workspace/PortSip/PortSip/Example/AndroidSample_Studio/SIPSample_AndroidStudio/SIPSample/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-19.1.0_f0d63392bef65810f6c0668d6778b54390ddf944.jar" />
+    </item>
+    <item
+        jar="/home/prd/Workspace/PortSip/PortSip/Example/AndroidSample_Studio/SIPSample_AndroidStudio/SIPSample/libs/portsipvoipsdk.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c3b8d0a76c2dae6d30c2a08edd43c2768291cbb">
+        <dex dex="/home/prd/Workspace/PortSip/PortSip/Example/AndroidSample_Studio/SIPSample_AndroidStudio/SIPSample/build/intermediates/pre-dexed/debug/portsipvoipsdk_0ffa039d86f5f2c7d4794437c7b9fb968163e432.jar" />
+    </item>
+    <item
+        jar="/home/prd/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/home/prd/Workspace/PortSip/PortSip/Example/AndroidSample_Studio/SIPSample_AndroidStudio/SIPSample/build/intermediates/pre-dexed/debug/support-v4-19.1.0_c46b49d87fb5ff76f107b72edc1283fc2694be02.jar" />
+    </item>
+
+</items>

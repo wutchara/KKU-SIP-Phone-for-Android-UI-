@@ -1,0 +1,8 @@
+Data Variables
+
+MainActivity.java
+    - user name => "loginView.uname"
+    - user password => "loginView.upass"
+    
+
+remark: "loginView" is object of Login.java

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/i_kku"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name :"
+        android:id="@+id/loginUserName"
+        android:layout_below="@+id/imageView"
+        android:layout_toStartOf="@+id/editTextUname"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="41dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password : "
+        android:id="@+id/loginPass"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/loginUserName"
+        android:layout_alignEnd="@+id/loginUserName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextUname"
+        android:layout_alignBottom="@+id/loginUserName"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextUPass"
+        android:layout_alignBottom="@+id/loginPass"
+        android:layout_alignStart="@+id/editTextUname"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextUPassShow"
+        android:layout_alignBottom="@+id/editTextUPass"
+        android:layout_alignStart="@+id/editTextUPass"
+        android:layout_alignEnd="@+id/editTextUname"
+        android:singleLine="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/loginBtn"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/editTextUPass"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

@@ -1,0 +1,1 @@
+Please copy "SIPSample_AndroidStudio/SIPSample/libs/portsipvoipsdk.jar" to "P2PSample_AndroidStudio/SIPSample/libs/portsipvoipsdk.jar"

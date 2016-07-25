@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">KKU SIP Phone</string>
+
+    <string name="action_settings">More</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="lorem_ipsum">Test</string>
+    <string name="user_name">User Name :</string>
+    <string name="password">Password :</string>
+    <string name="profile_data_text">Profile Data</string>
+    <string name="relogin_text">Re Login</string>
+    <string name="deleteBtn_text">Delete Profile</string>
+</resources>
